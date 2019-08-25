@@ -1,0 +1,32 @@
+[
+  {
+    "id": "92297a37-ea6c-4e57-99bb-acf310011441",
+    "name": "agent_test",
+    "status" : "READY",
+    "max_scans": 2,
+    "nb_scans": 1,
+    "charge": 50
+  },
+  {
+    "id": "56a0431b-1092-420c-9480-26413c415076",
+    "name": "virustotal",
+    "status" : "BUSY",
+    "max_scans": 16,
+    "nb_scans": 16,
+    "charge": 100
+  },
+  {
+    "id": "63200636-6501-4935-a58a-5b9c2710a17c",
+    "name": "cuckoo",
+    "status" : "READY",
+    "max_scans": 7,
+    "nb_scans": 5,
+    "charge": 12
+  },
+  {
+    "id": "d93ead5a-3ca8-4043-a7af-87119f790339",
+    "name": "unarchive",
+    "status" : "ERROR",
+    "error_desc": "busy_timeout",
+  }
+]
